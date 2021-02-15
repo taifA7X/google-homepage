@@ -6,3 +6,17 @@
     display: block;
     margin: auto;
 }
+#search-bar {
+    position: relative;
+    top: 270px
+}
+#search-bar form input {
+    width: 600px;
+    padding: 15px;
+    border-radius:50px;
+    border-width: 1px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border-color:darkgrey
+}
