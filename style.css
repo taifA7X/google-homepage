@@ -64,5 +64,12 @@ a:hover:not(#sign-in) {
 #subs {
     text-align: center;
 }
+.b-right {
+    float: right;
+}
+#bottom-nav-bar {
+    position: relative;
+    top: 620px;
+}
 
 
