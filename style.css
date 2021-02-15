@@ -1,0 +1,8 @@
+#google-logo {
+    position:relative;
+    top: 250px;
+}
+#google-logo img {
+    display: block;
+    margin: auto;
+}
