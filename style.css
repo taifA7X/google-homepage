@@ -10,7 +10,7 @@
     position: relative;
     top: 270px
 }
-#search-bar form input {
+#search-bar form #search {
     width: 600px;
     padding: 15px;
     border-radius:50px;
@@ -20,16 +20,14 @@
     margin: auto;
     border-color:darkgrey
 }
-input:hover {
+input:hover:not(.sub) {
     box-shadow: 5px 5px 10px rgb(134, 134, 134);
 }
 #nav-bar {
     position: relative;
-    bottom: 170px;
-    overflow: hidden;
+    bottom: 230px;
+    overflow: hideen;
 }
-
-
 li {
     display: inline;
     margin: 7px;
@@ -55,3 +53,16 @@ a:hover:not(#sign-in) {
 #sign-in:hover {
     background-color: rgb(17, 0, 255);
 }
+.sub {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: grey;
+}
+#subs {
+    text-align: center;
+}
+
+
