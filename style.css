@@ -20,3 +20,38 @@
     margin: auto;
     border-color:darkgrey
 }
+input:hover {
+    box-shadow: 5px 5px 10px rgb(134, 134, 134);
+}
+#nav-bar {
+    position: relative;
+    bottom: 170px;
+    overflow: hidden;
+}
+
+
+li {
+    display: inline;
+    margin: 7px;
+}
+a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 17px;
+}
+a:hover:not(#sign-in) {
+    text-decoration: underline;
+}
+.right {
+    float: right;
+}
+#sign-in {
+    background-color: rgb(45, 158, 250);
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+#sign-in:hover {
+    background-color: rgb(17, 0, 255);
+}
